@@ -10,10 +10,10 @@
 
 title: Mike Cheruiyot                          # the main title
 
-tagline: CTF Player | Pentester | InfoSec Enthusiast # it will display as the sub-title
+tagline: Cecurity Engineer | Penetration Tester | Open Source Tooling # it will display as the sub-title
           
 description: >-                        # used by seo meta and the atom feed
-  Discover cool techniques
+  Portfolio, offensive security tooling, security research, and CTF walkthroughs by Mike Cheruiyot. Open to remote Security Engineering and Pentesting roles.
 
 # Replace with the website url, e.g. 'https://username.github.io'
 url: 'https://peakyblinder-kim.github.io/'
@@ -37,7 +37,7 @@ social:
     - https://github.com/peakyblinder-kim       # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+    - https://www.linkedin.com/in/mike-cheruiyot-289478365/
 
 google_site_verification: CtBtIysuQ8b6k36FI7jqU-o34DRoA_sye50a-RNtPPY # change to your verification string
 

@@ -1,0 +1,42 @@
+current directory: /home/kali/Documents/peakyblinder-kim.github.io/vendor/bundle/ruby/3.3.0/gems/io-event-1.22.0/ext
+/usr/bin/ruby3.3 -I/usr/lib/ruby/vendor_ruby extconf.rb
+checking for whether -Wall is accepted as CFLAGS... yes
+checking for whether -Wno-unknown-pragmas is accepted as CFLAGS... yes
+checking for whether -std=c99 is accepted as CFLAGS... yes
+checking for rb_ext_ractor_safe()... yes
+checking for &rb_fiber_transfer()... yes
+checking for -luring... no
+checking for sys/epoll.h... yes
+checking for sys/event.h... no
+checking for sys/wait.h... yes
+checking for sys/eventfd.h... yes
+checking for rb_io_descriptor()... yes
+checking for rb_process_status_for()... no
+checking for &rb_process_status_wait()... yes
+checking for rb_fiber_current()... yes
+checking for &rb_fiber_raise()... yes
+checking for epoll_pwait2(0, 0, 0, 0, 0) in sys/epoll.h... yes
+checking for ruby/io/buffer.h... yes
+checking for rb_fiber_scheduler_blocking_operation_extract()... no
+creating extconf.h
+creating Makefile
+
+current directory: /home/kali/Documents/peakyblinder-kim.github.io/vendor/bundle/ruby/3.3.0/gems/io-event-1.22.0/ext
+make -j5 DESTDIR\= sitearchdir\=./.gem.20260913-234285-p7qyoj sitelibdir\=./.gem.20260913-234285-p7qyoj clean
+
+current directory: /home/kali/Documents/peakyblinder-kim.github.io/vendor/bundle/ruby/3.3.0/gems/io-event-1.22.0/ext
+make -j5 DESTDIR\= sitearchdir\=./.gem.20260913-234285-p7qyoj sitelibdir\=./.gem.20260913-234285-p7qyoj
+compiling ./io/event/selector/epoll.c
+compiling ./io/event/event.c
+compiling ./io/event/fiber.c
+compiling ./io/event/interrupt.c
+compiling ./io/event/selector/selector.c
+compiling ./io/event/time.c
+linking shared-object IO_Event.so
+
+current directory: /home/kali/Documents/peakyblinder-kim.github.io/vendor/bundle/ruby/3.3.0/gems/io-event-1.22.0/ext
+make -j5 DESTDIR\= sitearchdir\=./.gem.20260913-234285-p7qyoj sitelibdir\=./.gem.20260913-234285-p7qyoj install
+/usr/bin/install -c -m 0755 IO_Event.so ./.gem.20260913-234285-p7qyoj
+
+current directory: /home/kali/Documents/peakyblinder-kim.github.io/vendor/bundle/ruby/3.3.0/gems/io-event-1.22.0/ext
+make DESTDIR\= sitearchdir\=./.gem.20260913-234285-p7qyoj sitelibdir\=./.gem.20260913-234285-p7qyoj clean
